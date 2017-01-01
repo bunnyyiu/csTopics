@@ -11,3 +11,5 @@ const insectionSort = function (array) {
     array[j + 1] = current;
   }
 };
+
+exports.sort = insectionSort;

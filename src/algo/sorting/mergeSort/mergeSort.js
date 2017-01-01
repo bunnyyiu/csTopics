@@ -32,3 +32,5 @@ const mergeSort = function (array, p, r) {
 const sort = function (array) {
   mergeSort(array, 0, array.length - 1);
 };
+
+exports.sort = sort;
