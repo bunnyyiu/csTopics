@@ -14,3 +14,5 @@ A review of fundamental concepts to advanced topics in computer science.
 [Insertion Sort] (/src/algo/sorting/insertionSort/insertionSort.js)
 
 [Merge Sort] (/src/algo/sorting/mergeSort/mergeSort.js)
+
+[Selection Sort] (/src/algo/sorting/selectionSort/selectionSort.js)
