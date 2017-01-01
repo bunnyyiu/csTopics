@@ -1,6 +1,6 @@
 'use strict';
 
-const merge = function (array, p, q, r) {
+const merge = function(array, p, q, r) {
   const L = array.slice(p, q + 1);
   const R = array.slice(q + 1, r + 1);
 
@@ -19,7 +19,7 @@ const merge = function (array, p, q, r) {
   }
 };
 
-const mergeSort = function (array, p, r) {
+const mergeSort = function(array, p, r) {
   if (p < r) {
     // (p + q) / 2, this prevent overflow
     let q = Math.floor(p + ((r - p) / 2));
@@ -29,7 +29,7 @@ const mergeSort = function (array, p, r) {
   }
 };
 
-const sort = function (array) {
+const sort = function(array) {
   mergeSort(array, 0, array.length - 1);
 };
 

@@ -1,0 +1,24 @@
+{
+  "name": "cstopics",
+  "version": "0.0.1",
+  "description": "A review of fundamental concepts to advanced topics in computer science.",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-config-google": "^0.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bunnyyiu/csTopics.git"
+  },
+  "author": "bunny116@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bunnyyiu/csTopics/issues"
+  },
+  "homepage": "https://github.com/bunnyyiu/csTopics#readme"
+}

@@ -1,6 +1,6 @@
 'use strict';
 
-const insectionSort = function (array) {
+const insectionSort = function(array) {
   for (let i = 1; i < array.length; i++) {
     let current = array[i];
     let j = i - 1;
